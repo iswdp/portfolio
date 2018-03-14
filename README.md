@@ -1,1 +1,1 @@
-Visit my portfolio at william-powell-portfolio.herokuapp.com.
+Visit my portfolio at http://william-powell-portfolio.herokuapp.com/index.html.
