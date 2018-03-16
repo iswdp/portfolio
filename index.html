@@ -89,10 +89,30 @@
         background-color: transparent;
     }
 
+    .navbar-default {
+      background: #262626;
+      border: 0px;
+    }
+    .top {
+        color: white;
+    }
+    .top:hover {
+        background-color: #1a1a1a;
+    }
 </style>
 <title>William Powell - Aspiring Full Stack Engineer</title>
 </head>
 <body class="parallax">
+
+<nav class="navbar navbar-default">
+    <ul class="nav navbar-nav" style="float:right;">
+        <li class="top"><a href="#about-me"><span class="top">About Me</span></a></li>
+        <li class="top"><a href="#skills"><span class="top">Skills</span></a></li>
+        <li class="top"><a href="#portfolio"><span class="top">Portfolio</span></a></li>
+        <li class="top"><a href="#contact"><span class="top">Contact</span></a></li>
+    </ul>
+</nav>
+
 <div class="jumbotron text-center" style="margin-top: 250px;">
     <h1>William Powell</h1>
     <h2>Aspiring Full Stack Engineer</h2>
@@ -100,9 +120,9 @@
 
 <div class="container" style="margin-top: 250px; width:100%;">
     <div class="row aboutme">
-        <h1 class="text-center">About Me</h1>
+        <h1 id="about-me" class="text-center">About Me</h1>
     </div>
-    <div class="row skills" style="margin-bottom: 0px;">
+    <div id="skills" class="row skills" style="margin-bottom: 0px;">
         <h1 class="text-center">Skills</h1>
         <div class="col-sm-2 devicon">
             <i class="devicon-bootstrap-plain colored"></i>
@@ -140,7 +160,7 @@
         </div>
     </div>
     <div class="row portfolio">
-        <h1 class="text-center">Portfolio</h1>
+        <h1 id="portfolio" class="text-center">Portfolio</h1>
         <div class="row projects">
             <div class="col-sm-4"><a href="https://github.com/iswdp/termplot"><img class="img-responsive" src="termplot.jpg"></a></div>
             <div class="col-sm-4"><img class="img-responsive" src="https://www.wpfreeware.com/wp-content/uploads/2014/09/placeholder-images.jpg"></div>
@@ -152,7 +172,7 @@
             <div class="col-sm-4"><img class="img-responsive" src="https://www.wpfreeware.com/wp-content/uploads/2014/09/placeholder-images.jpg"></div>
         </div>
     </div>
-    <div class="row contact" style="margin-bottom: 0px;">
+    <div id="contact" class="row contact" style="margin-bottom: 0px;">
         <h1 class="text-center">Contact</h1>
         <div class="col-sm-4">
             <a class="btn btn-block btn-github" href="https://github.com/iswdp">
